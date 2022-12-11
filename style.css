@@ -20,6 +20,8 @@
 }
 .exceutive-shifty{
     display: flex;
+    align-items: center;
+    margin-left: 100px;
 }
 .execute-shift-img{
     border-radius: 100%;
@@ -34,7 +36,9 @@
 }
 .Propagation-Knowledge{
     display: flex;
+    align-items: center;
 }
+
 .Propagation-Knowledge-img1{
     border-radius: 100%;
     border: 10px solid rgb(19, 123, 241);
