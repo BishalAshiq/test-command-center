@@ -16,13 +16,14 @@
     display: flex;
     margin-right: 150px;
     margin-top: 70px; 
+    margin-bottom:  0px;
 }
 .exceutive-shifty{
     display: flex;
 }
 .execute-shift-img{
     border-radius: 100%;
-    border: 4px solid rgb(19, 241, 241);
+    border: 10px solid rgb(19, 123, 241);
 }
 
 .second-div{
@@ -34,9 +35,15 @@
 .Propagation-Knowledge{
     display: flex;
 }
+.Propagation-Knowledge-img1{
+    border-radius: 100%;
+    border: 10px solid rgb(19, 123, 241);
+    
+}
 .Propagation-Knowledge-img{
     border-radius: 100%;
-    border: 4px solid rgb(19, 241, 241);
+    border: 10px solid rgb(19, 123, 241);
+   
 }
 
 
@@ -45,4 +52,54 @@
     display: flex;
     justify-content:left;
     margin-top: -50px;
+}
+
+@media only screen and (min-width: 1370px)  {
+    .first-div{
+        margin-top: 100px;
+        
+    }
+    .second-div{
+        margin-top: 200px;
+        margin-bottom: 70px;
+        margin-right: -400px;
+    }
+    .execute-shift-img{
+        width: 190px;
+        height: 170px;  
+    }
+    .Propagation-Knowledge-img{
+        width: 190px;
+        height: 170px;
+    }
+    .Propagation-Knowledge-img1{
+        width: 190px;
+        height: 170px;
+    }
+    .prepagation-anchor{
+        margin-right: 150px;
+    }
+    .propag{
+        margin-left: 2px;
+        
+    }
+    .reaction{
+        padding-left: 3px;
+        
+    }
+    .test-time{
+        margin-bottom: -400px;
+    }
+    .pov-anchor{
+        margin-top: -400px;
+    }
+    .wip{
+        margin-left: 22px;
+    }
+    .fa{
+        margin-left: 23px;
+    }
+    .yeld{
+        margin-left: 22px;
+    }
 }
